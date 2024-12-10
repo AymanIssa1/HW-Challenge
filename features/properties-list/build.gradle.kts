@@ -73,6 +73,8 @@ dependencies {
 
     implementation(libs.androidx.material.icons.extended)
 
+    implementation(libs.accompanist.pager)
+
     // Local unit tests
     testImplementation(libs.androidx.core)
     testImplementation(libs.junit)

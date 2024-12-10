@@ -1,5 +1,6 @@
 [versions]
 
+accompanistPager = "0.28.0"
 androidxJunit = "1.2.1"
 compileSdk = "34"
 coreKtxVersion = "1.5.0"
@@ -58,6 +59,7 @@ secrets ="2.0.1"
 lifecycleRuntimeComposeAndroid = "2.8.7"
 
 [libraries]
+accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanistPager" }
 androidx-core = { module = "androidx.test:core", version.ref = "coreKtxVersion" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-core-testing = { module = "androidx.arch.core:core-testing", version.ref = "coreTesting" }

@@ -58,12 +58,8 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import ayman.issa.hostelworld.common.Response
 import ayman.issa.hostelworld.common.util.TestTag
-import ayman.issa.hostelworld.design_system.core.R
-import ayman.issa.hostelworld.design_system.core.carroussel.Carrousel
-import ayman.issa.hostelworld.design_system.core.carroussel.CarrouselItem
 import ayman.issa.hostelworld.design_system.core.coreComponents.button.Button
 import ayman.issa.hostelworld.features.properties_list.domain.model.PropertyUiModel
-import coil.compose.AsyncImage
 import ayman.issa.hostelworld.design_system.core.coreComponents.text.Text
 import ayman.issa.hostelworld.design_system.core.coreComponents.text.TextOptions
 import ayman.issa.hostelworld.design_system.core.coreComponents.text.TextSize
@@ -252,22 +248,6 @@ fun PropertyItem(
     property: PropertyUiModel,
     onClick: (propertyId: Int, currency: String) -> Unit
 ) {
-    val carrouselItems = arrayListOf<CarrouselItem>()
-    property.imagesGallery.forEach { image ->
-        carrouselItems.add {
-            AsyncImage(
-                model = image,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clip(RoundedCornerShape(16.dp))
-                    .testTag(TestTag.PropertyGalleryImage),
-                contentScale = ContentScale.FillWidth,
-                contentDescription = "Hostel Image",
-                placeholder = painterResource(R.drawable.placeholder)
-            )
-        }
-    }
-
     Card(
         modifier = Modifier
             .fillMaxWidth()
@@ -289,13 +269,13 @@ fun PropertyItem(
         Box {
             Column {
                 Spacer(modifier = Modifier.height(8.dp))
-                Carrousel(
-                    items = carrouselItems,
+                PropertyCarrousel(
                     modifier = Modifier
                         .height(200.dp)
                         .fillMaxWidth(),
-                    showEdgeItems = false,
-                    showIndicators = true
+                    showIndicators = true,
+                    images = property.imagesGallery,
+                    startingIndex = 0
                 )
                 Spacer(modifier = Modifier.height(12.dp))
                 PropertyDetails(property)
