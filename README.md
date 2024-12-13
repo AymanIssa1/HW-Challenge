@@ -4,6 +4,20 @@ This project is a demonstration of an Android application for property listings.
 
 ---
 
+## 📹 **Project Demo**  
+**Watch the project in action:**  
+[![Demo Video](https://drive.google.com/file/d/1xqLcVs9PFz4ffpoG5FHrS1U0UBsKDs1n/preview)](https://drive.google.com/file/d/1xqLcVs9PFz4ffpoG5FHrS1U0UBsKDs1n/preview) 
+*Click to watch the full video*  
+
+---
+
+## 🧪 **UI Testing Demo**  
+**Watch the UI testing process:**  
+[![UI Testing Demo](https://drive.google.com/file/d/1xxiNjgMX1YeQXmJRoleWO4UBVm4x-bc6/preview)](https://drive.google.com/file/d/1xxiNjgMX1YeQXmJRoleWO4UBVm4x-bc6/preview)  
+*Click to watch the full testing demo*  
+
+---
+
 ## 🛠️ **Features**  
 - Display property listings fetched from a remote API.  
 - View detailed information about each property.  
@@ -21,17 +35,3 @@ This project is a demonstration of an Android application for property listings.
 - **Hilt (Dependency Injection)**  
 - **Retrofit & OkHttp (API calls)**  
 - **JUnit and Espresso (Testing)**  
-
----
-
-## 📹 **Project Demo**  
-**Watch the project in action:**  
-[![Demo Video](https://drive.google.com/file/d/1xqLcVs9PFz4ffpoG5FHrS1U0UBsKDs1n/preview)](https://drive.google.com/file/d/1xqLcVs9PFz4ffpoG5FHrS1U0UBsKDs1n/preview) 
-*Click to watch the full video*  
-
----
-
-## 🧪 **UI Testing Demo**  
-**Watch the UI testing process:**  
-[![UI Testing Demo](https://drive.google.com/file/d/1xxiNjgMX1YeQXmJRoleWO4UBVm4x-bc6/preview)](https://drive.google.com/file/d/1xxiNjgMX1YeQXmJRoleWO4UBVm4x-bc6/preview)  
-*Click to watch the full testing demo*  
