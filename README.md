@@ -35,22 +35,3 @@ This project is a demonstration of an Android application for property listings.
 **Watch the UI testing process:**  
 [![UI Testing Demo](https://drive.google.com/file/d/1xxiNjgMX1YeQXmJRoleWO4UBVm4x-bc6/preview)](https://drive.google.com/file/d/1xxiNjgMX1YeQXmJRoleWO4UBVm4x-bc6/preview)  
 *Click to watch the full testing demo*  
-
----
-
-## 📂 **Folder Structure**  
-- **app**: Contains the application’s core logic and UI.  
-- **data**: Manages API interactions and caching.  
-- **domain**: Business logic and use cases.  
-- **presentation**: Handles UI and user interactions.  
-- **tests**: Unit and UI test cases for validation.  
-
----
-
-## 🤝 **Contributing**  
-Feel free to contribute by opening an issue or submitting a pull request.  
-
----
-
-## 📄 **License**  
-This project is licensed under the MIT License. See the `LICENSE` file for details.  
