@@ -6,15 +6,13 @@ This project is a demonstration of an Android application for property listings.
 
 ## 📹 **Project Demo**  
 **Watch the project in action:**  
-[![Demo Video](https://drive.google.com/file/d/1xqLcVs9PFz4ffpoG5FHrS1U0UBsKDs1n/preview)](https://drive.google.com/file/d/1xqLcVs9PFz4ffpoG5FHrS1U0UBsKDs1n/preview) 
-*Click to watch the full video*  
+[![Watch the Demo Video Here](https://i.imgur.com/4fjZFoO.png)](https://drive.google.com/file/d/1xqLcVs9PFz4ffpoG5FHrS1U0UBsKDs1n/preview)
 
 ---
 
 ## 🧪 **UI Testing Demo**  
 **Watch the UI testing process:**  
-[![UI Testing Demo](https://drive.google.com/file/d/1xxiNjgMX1YeQXmJRoleWO4UBVm4x-bc6/preview)](https://drive.google.com/file/d/1xxiNjgMX1YeQXmJRoleWO4UBVm4x-bc6/preview)  
-*Click to watch the full testing demo*  
+[![UI Testing Demo](https://i.imgur.com/8qKxbu6.png)](https://drive.google.com/file/d/1xxiNjgMX1YeQXmJRoleWO4UBVm4x-bc6/preview)
 
 ---
 
